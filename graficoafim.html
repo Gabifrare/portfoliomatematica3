@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráfico da Função Afim</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="dp-menu">
+        <ul>
+            <li><a href="index.html">Login</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="autoavaliacao.html">Autoavaliação</a></li>
+            <li><a href="#">1° trimestre</a>
+                <ul>
+                    <li><a href="https://gabifrare.github.io/portifoliodematematica/sistemas.html"
+                            target="_blank">Sistemas de Numeração</a></li>
+                    <li><a href="https://gabifrare.github.io/portifoliodematematica/conjuntos.html"
+                            target="_blank">Conjuntos e Conjuntos Numéricos</a></li>
+                    <li><a href="https://gabifrare.github.io/portifoliodematematica/funcao.html"
+                            target="_blank">Função
+                            e Função Afim</a></li>
+                </ul>
+            </li>
+            <li><a href="#">2° trimestre</a>
+                <ul>
+                    <li><a href="graficoafim.html">Gráfico da Função Afim</a></li>
+                    <li><a href="funcaoquadratica.html">Função Quadrática</a></li>
+                    <li><a href="funcaoexponencial.html">Função Exponencial</a>
+                    </li>
+                    <li><a href="logaritmos.html">Logaritmos</a></li>
+                </ul>
+            </li>
+            <li><a href="#">3° trimestre</a>
+                <ul>
+                    <li><a href="funcoeslogaritmicas.html">Funções
+                            Logaritmicas</a></li>
+                    <li><a href="modulares.html">Funções Modulares</a></li>
+                    <li><a href="paepg.html">Progressão Aritmética e
+                            Geométrica</a></li>
+                    <li><a href="matematicafinanceira.html">Matemática Financeira</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <h1 class="titulo_paginas">Gráfico da Função Afim</h1>
+    <p class="paragrafo-meio">No trimestre passado, tivemos uma introdução sobre o que seria uma função afim, mas como
+        podemos representá-las
+        por meio de um gráfico?
+    </p>
+    <hr>
+    <p>Para fazermos o gráfico da função afim, utilizaremos pontos em um plano cartesiano que formarão a reta da função.
+        Existem duas formas de acharmos esses pontos:</p>
+    <h3>1<sup>a</sup> forma: Método da Tabela</h3>
+    <p>Nesse método, é preciso atribuir valores para x e substituí-los na função, encontrando o valor de y para cada
+        ponto escolhido, utilizando a mesma lógica da máquina de funções que também vimos no trimestre passado. É
+        necessário atribuir no mínimo dois valores para x, já que podemos montar o gráfico de uma função utilizando
+        apenas dois pontos que irão ser gerados por esses dois valores escolhidos.
+    </p>
+    <p class="paragrafo-meio">Exemplo: nesse exemplo, utilizaremos a função f(x) = 3x + 1.</p>
+    <div class="table-responsive">
+        <table class="tabela table-bordered">
+            <thead>
+                <tr>
+                    <th>Valor de x</th>
+                    <th>Valor de y</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>-2</td>
+                    <td>f(x) = 3.(-2) + 1 = -5</td>
+                </tr>
+                <tr>
+                    <td>-1</td>
+                    <td>f(x) = 3.(-1) + 1 = -2</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>f(x) = 3.0 + 1 = 1</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>f(x) = 3.1 + 1 = 4</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>f(x) = 3.2 + 1 = 7</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+
+    <p>Depois de acharmos todos os pontos, vamos colocá-los no plano cartesiano. Para fazer isso, basta marcar os
+        valores de x no eixo x (horizontal) e os valores de y no eixo y (vertical) para traçar a reta, resultando nesse
+        gráfico:</p>
+
+    <div class="imagens">
+        <img class="img-fluid" src="img/funcaoafimtabela.PNG">
+    </div>
+    <br>
+
+    <h3>2<sup>a</sup> forma: Cortes nos eixos</h3>
+    <p>Nesse método, iremos encontrar os cortes nos eixos x e y atribuindo 0 para cada um dos valores da nossa função.
+        Para ser mais fácil de entender, veremos um exemplo:</p>
+    <br>
+    <p>Usando a função f(x) = 4x + 2, vamos atribuir 0 para x e para y.</p>
+
+    <h4>Para achar o corte em x: y = 0</h4>
+    <div class="respostas">
+        <p>f(x)= -4x + 2</p>
+        <p>0 = -4x + 2</p>
+        <p>4x = 2</p>
+        <p>x = 2/4</p>
+        <p>x = 0,5</p>
+    </div>
+
+    <h4>Para achar o corte em y: x = 0</h4>
+    <div class="respostas">
+        <p>f(x)=-4x + 2</p>
+        <p>f(x)=4.0 +2</p>
+        <p>f(x)= 2</p>
+    </div>
+    <br>
+
+    <p class="paragrafo-meio">Traçando os pontos do gráfico, ele ficará assim:</p>
+    <div class="imagens">
+        <img class="img-fluid" src="img/funcaoafimcortes.PNG">
+    </div>
+    <p>Como podemos observar, as duas funções acima têm gráficos com sentidos diferentes uma da outra, isso se dá por
+        conta do valor do coeficiente “a" da função
+    </p>
+    <br>
+    <h4>coeficiente a</h4>
+    <p>a > 0 -> função crescente (primeira imagem)</p>
+    <p>a < 0 -> função decrescente (segunda imagem)</p>
+    <p>a = 0 -> função constante (exemplo abaixo)</p>
+    <div class="imagens">
+        <img class="img-fluid" src="img/funcaoconstante.PNG">
+    </div>
+    <br>
+    <p>O coeficiente “a” também pode informar a taxa de variação, ou seja, de quanto em quanto o y aumenta. Por exemplo,
+        no gráfico da função f(x) = 3x + 7 que se encontra logo abaixo, vemos que os pontos estão marcados aumentam 3
+        vezes a cada 1 período de x.
+    </p>
+    <br>
+    <div class="imagens">
+        <img class="img-fluid" src="img/taxadevariacao.PNG">
+    </div>
+    <br>
+    <p>Analisando o gráfico e a função utilizada, podemos ver que o coeficiente “a” vale 3, assim como a taxa de
+        variação. Portanto, podemos saber qual será a taxa de variação em y apenas olhando para o valor do coeficiente
+        “a”.
+    </p>
+    <br>
+    <h4>coeficiente b</h4>
+    <p>Nos casos que a = 0, percebemos que a resposta para f(x) será o coeficiente “b”, então podemos dizer que f(0) =
+        b.
+    </p>
+    <br>
+    <h3>Lei da Função</h3>
+    <p>Até o momento, aprendemos a como montar o gráfico de uma função afim e achar o valor de x e y, mas e quando
+        recebemos o valor de y e x mas não temos o valor de “a” e “b” na função? Nesse caso, devemos encontrar a lei da
+        função.
+    </p>
+    <p>Existem duas formas de encontrarmos a lei da função: Usando a taxa de variação e usando um sistema de equações.
+    </p>
+    <br>
+    <h4>Usando a taxa de variação</h4>
+    <p>Nesse método, utilizamos a fórmula a = &Delta;y/&Delta;x, usando o mesmo pensamento da física de &Delta;y =
+        y<sub>f</sub> - y<sub>i</sub> por exemplo.
+        Depois de achar o coeficiente a, basta substituí-lo na função para achar o valor de b.
+    </p>
+    <br>
+    <p>Exemplo retirado do material de função afim da prof (exemplo 12): Qual a taxa de variação de uma função que
+        possui os valores
+        f(1) = 5 e f(3) = 1?
+    </p>
+    <div class="respostas">
+        <p>f(1) = 5</p>
+        <p>f(3) = 1</p>
+        <p>a = 1-5/1-3 -> -4/-2 = 2</p>
+    </div>
+    <p>Nessa questão precisávamos apenas achar a taxa de variação, mas podemos calcular o valor de b a partir desse
+        ponto:
+    </p>
+    <div class="respostas">
+        <p>f(1) = 5</p>
+        <p>5 = 2.1 + b</p>
+        <p>5 = 2 + b</p>
+        <p>b = 5 - 2</p>
+        <p>b = 3</p>
+    </div>
+    <br>
+
+    <h3>Interseção entre duas retas</h3>
+    <p>Podemos achar o ponto em que duas retas se cruzam por meio de um sistema de equações, fazendo o método da tabela
+        até achar o ponto em comum das duas ou igualando as duas funções em uma equação. Como já estudamos o método da
+        tabela, iremos fazer um exemplo usando um sistema de equações e igualando duas funções.
+    </p>
+    <br>
+    <p>Exemplo retirado do material de função afim da prof (exemplo 14): O gráfico das funções f(x) = 2x - 1 e f(x) = x
+        + 3 se intersectam em um ponto. Como podemos encontrá-lo?
+    </p>
+    <h4>Usando sistema</h4>
+    <div class="respostas">
+        <p>(y = 2x - 1) - (y = x + 3) -> 0 = x - 4 -> x = 4</p>
+    </div>
+    <h4>Igualando as funções</h4>
+    <div class="respostas">
+        <p>2x - 1 = x + 3</p>
+        <p>2x - x = 3 + 1</p>
+        <p>x = 4</p>
+    </div>
+    <p>Depois de achar o x, basta substituí-lo na função</p>
+    <div class="respostas">
+        <p>f(x) = 2x - 1</p>
+        <p>f(x) = 2.4 - 1</p>
+        <p>f(x) = 8 - 1</p>
+        <p>f(x) = 7</p>
+    </div>
+    <br>
+
+    <h3>Função Linear e proporcionalidade</h3>
+    <p>Quando o coeficiente b de uma função afim for igual a zero, podemos dizer que essa é uma função linear. Toda
+        função linear passa pelo ponto de origem (y = 0 e x = 0).
+    </p>
+    <br>
+    <p>Exemplo retirado do material de função afim da prof (exemplo 15): Sabe-se que o preço do quilograma da costela
+        bovina está R$
+        40,99.
+    </p>
+    <b></b>
+    <p>a) Estabeleça a função matemática que descreva a relação entre o quilograma
+        comprado e o preço pago por um consumidor.
+    </p>
+    <div class="respostas">
+        <p>P(q) = 40,99q, onde P = preço e q = quilograma</p>
+    </div>
+    <br>
+    <p>b) Quanto foi pago na compra de 2,5 kg dessa carne?</p>
+    <div class="respostas">
+        <p>P(q) = 40,99.2,5 = R$104,48</p>
+    </div>
+    <br>
+    <p>c) Se foi pago R$ 204,95, quantos quilogramas foram comprados?</p>
+    <div class="respostas">
+        <p>204,95 = 40,99q</p>
+        <p>q = 204,95/40,99 = 5kg</p>
+    </div>
+    <br>
+    <br>
+
+    <a href="funcaoquadratica.html" class="botao_avancar">Avançar para o próximo conteúdo</a>
+</body>
+
+</html>

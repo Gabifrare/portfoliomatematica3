@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #201b2c;
+    padding: 0;
+    margin: 0;
+}
+
+body * {
+    box-sizing: border-box;
+    color: white;
+}
+
+.login {
+    width: 100vw;
+    height: 100vh;
+    background-color: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.esquerda {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.esquerda>h1 {
+    font-size: 3vw;
+    color: #a07cf7;
+}
+
+.imagem-login {
+    width: 30vw;
+}
+
+.direita {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card>h1 {
+    color: #a07cf7;
+    font-weight: 800;
+    margin: 0px;
+}
+
+.textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield>input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield>label {
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.textfield>input::placeholder {
+    color: #f0ffff94;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #2b134b;
+    background-color: #a07cf7;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #2b134b;
+}
+
+.dp-menu {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    font-size: 20px;
+}
+
+.dp-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dp-menu ul {
+    background-color: rgb(57, 47, 87);
+}
+
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+    padding-left: 20px;
+}
+
+.dp-menu ul li a {
+    color: #FFF;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .3s;
+}
+
+.dp-menu ul li a:hover {
+    background-color: rgb(134, 115, 189);
+}
+
+/*sub-menu*/
+.dp-menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.dp-menu ul li:hover ul {
+    display: block;
+}
+
+.dp-menu ul ul {
+    width: 150px;
+}
+
+.dp-menu ul ul li a {
+    display: block;
+    font-size: 15px;
+}
+
+.dp-menu input[type="checkbox"] {
+    display: none;
+}
+
+.dp-menu label {
+    display: none;
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgb(57, 47, 87);
+    color: #fff;
+    font-size: 20px;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.dp-menu input[type="checkbox"]:checked + label + ul {
+    display: block;
+}
+
+/*#menu {
+    position: fixed;
+    top: 4px;
+    margin: 0;
+    height: 70px;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    background-color: rgb(134, 115, 189);
+}
+
+#menu ul li {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu ul li a {
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    color: #a07cf7;
+}*/
+
+#aviso-login {
+    color: #a07cf7;
+    font-size: 13px;
+    text-align: justify;
+}
+
+.trimestres {
+    color: white;
+    width: 100%;
+}
+
+.trimestres ul li a:hover {
+    color: #a07cf7;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2,
+h3 {
+    background: linear-gradient(to right, #654ee8, #8365f0, #bd93ff);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h4 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.paragrafo-meio {
+    text-align: center;
+    color: white;
+}
+
+.tabela {
+    border-collapse: collapse;
+    border: 1px solid;
+    margin: auto;
+    align-items: center;
+}
+
+.tabela th {
+    border: 1px solid;
+    text-align: center;
+    background: #8365f0;
+}
+
+.tabela td {
+    border: 1px solid;
+    text-align: center;
+}
+
+.tabela td:hover {
+    background-color: #65409e;
+}
+
+.imagens img {
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.propriedades img {
+    height: 200px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.respostas p {
+    color: #a07cf7;
+}
+
+.respostas p sup {
+    color: #a07cf7;
+}
+
+.respostas p sub {
+    color: #a07cf7;
+}
+
+.paragrafo_colorido {
+    color: #a07cf7;
+    padding-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.paragrafo_colorido sup {
+    color: #a07cf7;
+}
+
+.paragrafo_colorido a {
+    color: #a07cf7;
+}
+
+.videos {
+    width: 410px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.link {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.link:hover {
+    color: #bd93ff;
+    cursor: pointer;
+}
+
+#titulo-videos {
+    text-align: center;
+    color: white;
+    background-color: #201b2c;
+}
+
+
+#titulo_portifolio {
+    padding-top: 100px;
+    font-size: 50px;
+    font-family: 'Kalam', cursive;
+}
+
+.titulo_paginas {
+    padding-top: 80px;
+    padding-bottom: 0;
+    font-size: 50px;
+    font-family: 'Kalam', cursive;
+}
+
+.sublinhado {
+    text-decoration: underline;
+}
+
+.videaulas_titulo {
+    background: linear-gradient(to right, #654ee8, #8365f0, #bd93ff);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.botao_avancar {
+    width: 350px;
+    padding: 16px 0px;
+    margin: 25px auto;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #2b134b;
+    background-color: #a07cf7;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #2b134b;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.botao_avancar:hover {
+    background-color: #8365f0;
+    color: #FFF;
+}
+
+.trimestres_index {
+    color: white;
+    width: 100%;
+    padding-left: 100px;
+}
+
+
+@media screen and (max-width: 842px) {
+    .dp-menu label {
+        display: block;
+    }
+
+    .dp-menu ul {
+        display: none;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+        background-color: rgb(57, 47, 87);
+        top: 50px;
+    }
+
+    .dp-menu ul li {
+        width: 100%;
+        float: none;
+    }
+
+    .dp-menu ul li a {
+        width: 100%;
+        box-sizing: border-box;
+        display: block;
+    }
+
+    .dp-menu input[type="checkbox"]:checked + label + ul {
+        display: block;
+    }
+}
+

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Progressão Aritmética</title>
+</head>
+
+<body>
+    <nav class="dp-menu">
+        <ul>
+            <li><a href="index.html">Login</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="autoavaliacao.html">Autoavaliação</a></li>
+            <li><a href="#">1° trimestre</a>
+                <ul>
+                    <li><a href="https://gabifrare.github.io/portifoliodematematica/sistemas.html"
+                            target="_blank">Sistemas de Numeração</a></li>
+                    <li><a href="https://gabifrare.github.io/portifoliodematematica/conjuntos.html"
+                            target="_blank">Conjuntos e Conjuntos Numéricos</a></li>
+                    <li><a href="https://gabifrare.github.io/portifoliodematematica/funcao.html"
+                            target="_blank">Função
+                            e Função Afim</a></li>
+                </ul>
+            </li>
+            <li><a href="#">2° trimestre</a>
+                <ul>
+                    <li><a href="graficoafim.html">Gráfico da Função Afim</a></li>
+                    <li><a href="funcaoquadratica.html">Função Quadrática</a></li>
+                    <li><a href="funcaoexponencial.html">Função Exponencial</a>
+                    </li>
+                    <li><a href="logaritmos.html">Logaritmos</a></li>
+                </ul>
+            </li>
+            <li><a href="#">3° trimestre</a>
+                <ul>
+                    <li><a href="funcoeslogaritmicas.html">Funções
+                            Logaritmicas</a></li>
+                    <li><a href="modulares.html">Funções Modulares</a></li>
+                    <li><a href="paepg.html">Progressão Aritmética e
+                            Geométrica</a></li>
+                    <li><a href="matematicafinanceira.html">Matemática Financeira</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    
+    <h1 class="titulo_paginas">Progressão Aritmética e Geométrica</h1>
+    <p class="paragrafo-meio">Progressão Aritmética (PA) e Progressão Geométrica (PG) são sequências numéricas, onde na
+        PA existe uma diferença
+        constante entre os termos e na PG existe uma razão constante.
+    </p>
+    <hr>
+
+    <h3>Sequências Numéricas</h3>
+    <p>Antes de entrarmos no conteúdo de PA e PG, é necessário que façamos uma breve recapitulação do conteúdo de
+        sequências numéricas. Uma sequência numérica é caracterizada por uma sequência de números que seguem um padrão.
+        Por exemplo, a sequência dos números pares é uma sequência numérica pois todos os números pois crescem de dois
+        em dois. Também existem outras sequências como os números ímpares e a sequência de Fibonacci.
+    </p>
+
+    <h3>Progressão Aritmética</h3>
+    <p>Antes de entrarmos no conteúdo de PA e PG, é necessário que façamos uma breve recapitulação do conteúdo de
+        sequências numéricas. Uma sequência numérica é caracterizada por uma sequência de números que seguem um padrão.
+        Por exemplo, a sequência dos números pares é uma sequência numérica pois todos os números pois crescem de dois
+        em dois. Também existem outras sequências como os números ímpares e a sequência de Fibonacci.
+    </p>
+    <br>
+    <p>Exemplos:</p>
+    <ul>
+        <li>(1, 2, 3, 4, 5, 6…)</li>
+        Razão: 1; Classificação: crescente
+        <li>(4, 4, 4, 4, 4, 4…)</li>
+        Razão: 0; Classificação: constante
+        <li>(0, -2, -4, -6, -8…)</li>
+        Razão: -2; Classificação: decrescente
+    </ul>
+
+    <h3>Classificações</h3>
+    <ol>
+        <li>Crescente: o termo é maior do que o anterior (r > 0);</li>
+        <li>Constante: cada termo é igual ao anterior (r = 0);</li>
+        <li>Decrescente: o termo é menor do que o anterior (r < 0)</li>
+    </ol>
+
+    <h3>Fórmula do Termo Geral</h3>
+    <p>Visto que:</p>
+    <ul>
+        <li>a1</li>
+        <li>a2 = a1 + r</li>
+        <li>a3 = a1 + r + r = a1 + 2r</li>
+        ...
+    </ul>
+    <br>
+    <p class="paragrafo-meio">Podemos estabelecer a seguinte fórmula: an = a1 + (n - 1)r</p>
+    <br>
+    <ul>
+        Onde:
+        <li>a1 = primeiro termo</li>
+        <li>an = termo geral</li>
+        <li>n = número de termos</li>
+        <li>r = razão</li>
+    </ul>
+    <br>
+
+    <p class="paragrafo_colorido">Exemplo (retirado do material da professora):</p>
+    <h4>Qual o número de termos de uma PA de razão -3 cujos primeiro e último termo são, respectivamente, 5 e -22.
+    </h4>
+    <div class="imagens">
+        <img class="img-fluid" src="img/pa_exemplotermogeral.png">
+    </div>
+
+    <h3>Relação da PA com Funções Afim</h3>
+    <p>Como acabamos de ver, a progressão aritmética segue uma sequência onde a razão é igual, ou seja, é igual para
+        todos os termos. Deste modo, é possível fazer um paralelo com as funções afim, já que ambas têm essa
+        característica em comum.</p>
+    <div class="imagens">
+        <img class="img-fluid" src="img/pa_relacaocomfuncoes.png">
+    </div>
+    <p class="paragrafo-meio">Na PA, não podemos traçar uma reta entre os pontos, já que não existem números reais entre
+        eles, enquanto na
+        função afim existe. </p>
+
+    <h3>Interpolação Aritmética</h3>
+    <p>Interpolação aritmética significa inserir números no meio de dois termos de modo que todos os números sigam uma
+        sequência. </p>
+    <p class="paragrafo_colorido">Exemplo (retirado do material da professora):</p>
+    <h4>Interpolação aritmética significa inserir números no meio de dois termos de modo que todos os números sigam uma
+        sequência. </h4>
+    <div class="imagens">
+        <img class="img-fluid" src="img/pa_exemplointerpolacao.png">
+    </div>
+
+    <h3>Soma dos termos de uma PA finita</h3>
+    <p>Para fazermos a soma de todos os termos de uma PA finita, não precisamos necessariamente somar todos os termos um
+        por um, podemos usar a seguinte fórmula: </p>
+    <p class="paragrafo-meio">Sn = ((a1 + an)n)/2</p>
+
+    <p class="paragrafo_colorido">Exemplo (<a class="link"
+            href="https://mundoeducacao.uol.com.br/matematica/soma-dos-termos-uma-pa.htm" target="_blank">Mundo
+            Educação</a>):</p>
+    <h4>Dada a PA (2, 4, 6, 8, 10, …), calcule a soma dos seus 100 primeiros termos.</h4>
+    <p class="paragrafo-meio">Para calcular a soma da PA, devemos primeiramente descobrir qual é o último termo dela.
+    </p>
+    <div class="imagens">
+        <img class="img-fluid" src="img/pa_somafinita.png">
+    </div>
+    <p class="paragrafo-meio">Agora que temos todos os dados necessários para somar todos os termos da PA, basta aplicar
+        a fórmula:</p>
+    <div class="imagens">
+        <img class="img-fluid" src="img/pa_somafinita2.png">
+    </div>
+    <br>
+
+    <h3>Progressão Geométrica</h3>
+    <p>Chama-se de Progressão Geométrica quando um termo de uma sequência numérica é o resultado do termo anterior
+        multiplicado por um quociente ( q ), que é único para toda a progressão.
+    </p>
+    <p>Exemplos:</p>
+    <ul>
+        <li> (1, 3, 9, 27, 81, …)</li>
+        Quociente: 3; Classificação: crescente
+        <li>(-1, -4, -16, -64, …)</li>
+        Quociente: 4; Classificação: decrescente
+        <li> (5, 5, 5, 5, 5, …)</li>
+        Quociente: 1; Classificação: constante
+        <li>(2, -4, 8, -16, 32, -64, …)</li>
+        Quociente: -2; Classificação: alternante
+        <li>(4, 0, 0, 0, 0, 0, …)</li>
+        Quociente: 0; Classificação: estacionária
+    </ul>
+
+    <h3>Classificações</h3>
+    <ol>
+        <li>Crescente: o termo é maior do que o anterior (q > 0);</li>
+        <ul>
+            <li>PG com termos positivos: q > 1.</li>
+            <li>PG com termos negativos: 0 < q < 1.</li>
+        </ul>
+        <li>Constante: cada termo é igual ao anterior (q = 0);</li>
+        <ul>
+            <li>PG com todos os termos nulos: a1 = 0 e q qualquer.</li>
+            <li>PG com termos iguais e não nulos: a &ne; 0 e q = 1.</li>
+        </ul>
+        <li>Decrescente: o termo é menor do que o anterior (q < 0);</li>
+                <ul>
+                    <li>PG com termos positivos: 0 < q < 1.</li>
+                    <li>PG com termos negativos: q > 1.</li>
+                </ul>
+        <li>Alternante: quando cada termo tem o sinal oposto do anterior (q < 0);</li>
+        <li>Estacionárias: apenas o primeiro termo é diferente de 0 (a1 &ne; 0 e q = 0).</li>
+    </ol>
+
+    <h3>Fórmula do Termo Geral</h3>
+    <p>Assim como na PA, podemos ver que:</p>
+    <ul>
+        <li>a1</li>
+        <li>a2 = a1 . q</li>
+        <li>a3 = a1 . q . q = a1 . q<sup>2</sup></li>
+        <li>a4 = a1 . q . q . q = a1 + q<sup>3</sup></li>
+        ...
+    </ul>
+    <br>
+    <p>Deste modo, podemos estabelecer a fórmula do termo geral como: an = a1 ∙ q<sup>n - 1</sup>
+    </p>
+    <br>
+    <ul>
+        Onde:
+        <li>a1 = primeiro termo</li>
+        <li>an = termo geral</li>
+        <li>n = número de termos</li>
+        <li>q = quociente</li>
+    </ul>
+    <br>
+
+    <p class="paragrafo_colorido">Exemplo (retirado do material da professora):</p>
+    <h4>Calcule o 1º termo de uma PG em que a4 = 375 e q = 5.</h4>
+
+    <div class="imagens">
+        <img class="img-fluid" src="img/pg_termogeral.png">
+    </div>
+
+    <h3>Relação entre PG e Funções Exponenciais</h3>
+    <p>Assim como vimos na PA, podemos fazer relações entre esse conteúdo com as funções que já estudamos anteriormente.
+        No caso da PG, como na fórmula o quociente é elevado a um expoente, podemos associá-la com as funções
+        exponenciais.
+    </p>
+    <div class="imagens">
+        <img class="img-fluid" src="img/pg_relacaocomfuncoes.png">
+    </div>
+    <p>Como vimos anteriormente na PA, não podemos traçar uma curva entre os pontos por conta do domínio da sequência.
+    </p>
+
+    <h3>Interpolação Geométrica</h3>
+    <p>Como vimos anteriormente na PA, não podemos traçar uma curva entre os pontos por conta do domínio da sequência.
+    </p>
+    <br>
+
+    <p class="paragrafo_colorido">Exemplo (retirado do material da professora):</p>
+    <h4>Interpolar 8 meios geométricos entre 5 e 2560.</h4>
+    <div class="imagens">
+        <img class="img-fluid" src="img/pg_exemplointerpolacao.png">
+    </div>
+
+    <h3>Soma dos termos de uma PG finita</h3>
+    <p>Do mesmo modo que não precisamos somar cada um dos termos de uma PA, também é possível utilizar uma fórmula em
+        uma PG para fazer a soma. Para isso, usamos a seguinte fórmula:
+    </p>
+    <p class="paragrafo-meio">Sn = a1 ∙ ((1 - qn)/(1 - q))
+    </p>
+    <br>
+
+    <p class="paragrafo_colorido">Exemplo (<a href="https://youtu.be/iC5gz2U_6Tw" target="_blank">Canal da Gis</a>):</p>
+    <h4>Calcular a soma dos nove primeiros termos da PG (3, 6, 12, …)</h4>
+    <div class="imagens">
+        <img class="img-fluid" src="img/pg_somafinita.png">
+    </div>
+
+    <h3>Soma dos termos de uma PG infinita</h3>
+    <p>Podemos fazer a soma dos termos de uma PG infinita quando -1 < q < 1. Calculamos a soma pela seguinte
+            fórmula:</p>
+            <p class="paragrafo-meio">Sn = a1/(1 - q)</p>
+            <br>
+
+            <p class="paragrafo_colorido">Exemplo (retirado do material da professora):</p>
+            <h4>A medida do lado de um triângulo equilátero é 10. Unindo-se os pontos médios de seus lados obtém-se os
+                pontos médios dos lados desse novo triângulo equilátero. Unindo-se os pontos médios desse novo triângulo
+                equilátero obtém-se um terceiro e assim por diante. Calcule a soma dos perímetros de todos esses
+                triângulos.</h4>
+
+            <div class="imagens">
+                <img class="img-fluid" src="img/pg_somainfinita.jpeg">
+            </div>
+
+            <a href="matematicafinanceira.html" class="botao_avancar">Avançar para o próximo conteúdo</a>
+
+
+</body>
+
+</html>

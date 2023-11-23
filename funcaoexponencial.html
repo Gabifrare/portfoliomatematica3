@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Função Exponencial</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="dp-menu">
+        <ul>
+            <li><a href="index.html">Login</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="autoavaliacao.html">Autoavaliação</a></li>
+            <li><a href="#">1° trimestre</a>
+                <ul>
+                    <li><a href="https://gabifrare.github.io/portifoliodematematica/sistemas.html"
+                            target="_blank">Sistemas de Numeração</a></li>
+                    <li><a href="https://gabifrare.github.io/portifoliodematematica/conjuntos.html"
+                            target="_blank">Conjuntos e Conjuntos Numéricos</a></li>
+                    <li><a href="https://gabifrare.github.io/portifoliodematematica/funcao.html"
+                            target="_blank">Função
+                            e Função Afim</a></li>
+                </ul>
+            </li>
+            <li><a href="#">2° trimestre</a>
+                <ul>
+                    <li><a href="graficoafim.html">Gráfico da Função Afim</a></li>
+                    <li><a href="funcaoquadratica.html">Função Quadrática</a></li>
+                    <li><a href="funcaoexponencial.html">Função Exponencial</a>
+                    </li>
+                    <li><a href="logaritmos.html">Logaritmos</a></li>
+                </ul>
+            </li>
+            <li><a href="#">3° trimestre</a>
+                <ul>
+                    <li><a href="funcoeslogaritmicas.html">Funções
+                            Logaritmicas</a></li>
+                    <li><a href="modulares.html">Funções Modulares</a></li>
+                    <li><a href="paepg.html">Progressão Aritmética e
+                            Geométrica</a></li>
+                    <li><a href="matematicafinanceira.html">Matemática Financeira</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <h1 class="titulo_paginas">Função Exponencial</h1>
+    <p class="paragrafo-meio">Uma função exponencial é definida por uma potência de base a elevada a x, onde a > 0 e a
+        &ne; 1</p>
+    <p class="paragrafo-meio">Fórmula: f(x) = a<sup>x</sup></p>
+    <hr>
+
+    <h3>A relação entre funções exponenciais e situações cotidianas</h3>
+    <p>As funções exponenciais estão fortemente ligadas com diversas situações em nosso cotidiano, seja o aumento de uma
+        população, contaminação de doenças ou rendimento de um investimento. No caso da contaminação de doenças,
+        presenciamos um caso muito recente: a pandemia do coronavírus, a qual teve uma contágio muito desenfreado.
+        Diante desse cenário, as funções exponenciais desempenham um papel fundamental para estimativas de pessoas
+        contaminadas, isso pelo fato de a forma de contaminação ser muito parecida com uma função exponencial.</p>
+    <p>Para compreendermos melhor sobre essa relação, imagine o seguinte cenário: você está contaminado com o vírus e
+        acaba tendo contato com duas pessoas, essas duas pessoas consequentemente estarão contaminadas devido esse
+        contato. Depois disso, cada uma dessas duas pessoas também terão contato com outras 2 pessoas, e assim se inicia
+        um ciclo de contágio cada vez maior já que o número aumenta cada vez mais. A lógica utilizada para explicar o
+        rápido contágio do vírus é exatamente o que ocorre nas funções exponenciais.</p>
+    <br>
+
+    <div class="table-responsive">
+        <table class="tabela table-bordered">
+            <thead>
+                <tr>
+                    <th>Número de contatos</th>
+                    <th>Número de infectados</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>0</td>
+                    <td>f(x) = 2<sup>0</sup> -> 1</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>f(x) = 2<sup>1</sup> -> 2</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>f(x) = 2<sup>2</sup> -> 4</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>f(x) = 2<sup>3</sup> -> 8</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>f(x) = 2<sup>4</sup> -> 16</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>TOTAL (soma)</td>
+                    <td>31 PESSOAS</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <br>
+
+    <p>Como podemos ver acima, a variável independente x (que nesse caso seria o número de contatos) vai no expoente da
+        fórmula da função, enquanto o coeficiente a (número de pessoas infectadas) se torna a base da potência. A base
+        da potência sempre será o número de crescimento ou decrescimento dado de acordo com a situação.
+    </p>
+    <br>
+
+    <h3>Construção do gráfico das funções exponenciais</h3>
+    <p>O gráfico da função exponencial é bem semelhante ao da função afim, porém ao invés de ser uma reta ele fará uma
+        curva. Como o coeficiente a sempre é maior que 0, a curva estará acima do eixo x, quando a > 1, a curva será
+        crescente, mas caso 1 > a > 0, a curva será decrescente. Diferente dos outros tipos de funções onde o corte no
+        eixo y tem valor indefinido, nas funções exponenciais o ponto de corte sempre terá a coordenada (0,1).
+    </p>
+    <p class="paragrafo-meio">exemplo da função f(x)= 2<sup>x</sup>, onde a > 1</p>
+    <div class="imagens">
+        <img class="img-fluid" src="img/curvaparacima.png">
+    </div>
+    <br>
+    <p class="paragrafo-meio">exemplo da função f(x)= 0,5<sup>x</sup>, onde a < 1 </p>
+            <div class="imagens">
+                <img class="img-fluid" src="img/curvaparabaixo.png">
+            </div>
+
+            <p>Para montar o gráfico da função é muito simples, iremos usar o mesmo método da tabela já aprendido
+                anteriormente e apenas analisar o valor do coeficiente a. Geralmente utilizamos os valores -2, -1, 0, 1
+                e 2, mas caso esses não sejam suficientes podemos ampliar a quantidade de pontos.</p>
+            <br>
+
+            <p class="paragrafo-meio">Usando o exemplo do contágio de coronavirus dito anteriormente, vamos fazer a
+                tabela do nosso gráfico:
+            </p>
+
+            <div class="table-responsive">
+                <table class="tabela table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Número de contatos</th>
+                            <th>Pessoas infectadas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>-2</td>
+                            <td>f(x) = 2<sup>-2</sup> = (1/2)<sup>2</sup> = 1/4 = 0,25</td>
+                        </tr>
+                        <tr>
+                            <td>-1</td>
+                            <td>f(x) = 2<sup>-1</sup> = 1/2 = 0,5</td>
+                        </tr>
+                        <tr>
+                            <td>0</td>
+                            <td>f(x) = 2<sup>0</sup> = 1</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>f(x) = 2<sup>1</sup> = 2</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>f(x) = 2<sup>2</sup> = 4</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br>
+
+            <p>Analisando o valor do coeficiente a (2), podemos ver que nosso gráfico será crescente já que a > 1. Com
+                as informações prontas, basta apenas montar o gráfico
+            </p>
+            <div class="imagens">
+                <img class="img-fluid" src="img/exponencial.PNG">
+            </div>
+            <br>
+
+            <h3>Equações exponenciais</h3>
+            <p>É comum nos depararmos com situações onde as funções exponenciais se encontram em forma de equações
+                exponenciais, ou seja, potências onde x se encontra no expoente.</p>
+            <p>Exemplos de equações exponenciais:</p>
+            <ul>
+                <li>2<sup>x</sup> = 64</li>
+                <li>5<sup>x + 3</sup> = 625</li>
+                <li>4<sup>x</sup> = 16.2<sup>6</sup></li>
+            </ul>
+            <br>
+
+            <h3>Aplicações</h3>
+            <p>Como já foi apresentado anteriormente, as funções exponenciais possuem diversas aplicações. A seguir,
+                iremos ver alguns exemplos do uso das funções exponenciais em problemas contextualizados.</p>
+            <br>
+            <p>(Exemplos retirados do material da professora)</p>
+            <p>O número de bactérias em um meio duplica de hora em hora. Se, inicialmente (t = 0), existem 5
+                bactérias no meio, após 10 horas qual será o número de bactérias? E após 72 horas? (Obs. Deixe a
+                resposta na forma de potência).</p>
+            <div class="respostas">
+                <p>Para 10 horas = 5.2<sup>10</sup></p>
+                <p>Para 72 horas = 5.2<sup>72</sup></p>
+            </div>
+            <br>
+            <p>Chama-se montante (M) a quantia que uma pessoa deve receber após aplicar um capital C, a juros
+                compostos, a uma taxa i durante um tempo n. O montante pode ser calculado pela fórmula M = C(1 +
+                i)n. Supondo que o 10 capital aplicado é de R$150.000,00 a uma taxa de 0,5% ao mês durante 5 anos,
+                qual o montante no final da aplicação?</p>
+            <div class="respostas">
+                <p>M = 150.000.(1+0,005)<sup>5</sup> -> M = 150.000 . 1,005<sup>5</sup> -> M =
+                    R$153.787,69</p>
+            </div>
+            <br>
+            <br>
+
+            <a href="logaritmos.html" class="botao_avancar">Avançar para o próximo conteúdo</a>
+</body>
+
+</html>

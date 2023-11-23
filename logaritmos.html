@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logaritmos</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <nav class="dp-menu">
+        <ul>
+            <li><a href="index.html">Login</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="autoavaliacao.html">Autoavaliação</a></li>
+            <li><a href="#">1° trimestre</a>
+                <ul>
+                    <li><a href="https://gabifrare.github.io/portifoliodematematica/sistemas.html"
+                            target="_blank">Sistemas de Numeração</a></li>
+                    <li><a href="https://gabifrare.github.io/portifoliodematematica/conjuntos.html"
+                            target="_blank">Conjuntos e Conjuntos Numéricos</a></li>
+                    <li><a href="https://gabifrare.github.io/portifoliodematematica/funcao.html"
+                            target="_blank">Função
+                            e Função Afim</a></li>
+                </ul>
+            </li>
+            <li><a href="#">2° trimestre</a>
+                <ul>
+                    <li><a href="graficoafim.html">Gráfico da Função Afim</a></li>
+                    <li><a href="funcaoquadratica.html">Função Quadrática</a></li>
+                    <li><a href="funcaoexponencial.html">Função Exponencial</a>
+                    </li>
+                    <li><a href="logaritmos.html">Logaritmos</a></li>
+                </ul>
+            </li>
+            <li><a href="#">3° trimestre</a>
+                <ul>
+                    <li><a href="funcoeslogaritmicas.html">Funções
+                            Logaritmicas</a></li>
+                    <li><a href="modulares.html">Funções Modulares</a></li>
+                    <li><a href="paepg.html">Progressão Aritmética e
+                            Geométrica</a></li>
+                    <li><a href="matematicafinanceira.html">Matemática Financeira</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <h1 class="titulo_paginas">Logaritmos</h1>
+    <p class="paragrafo-meio">Os logaritmos surgiram na necessidade de fazer com que operações com multiplicação e
+        divisão se tornassem mais
+        simples. Diante disso, John Napier criou os logaritmos, baseando-se nas propriedades de multiplicação de
+        potências de mesma base. São usados principalmente na matemática financeira.</p>
+    <hr>
+    <br>
+
+    <h3>Como funcionam os logaritmos?</h3>
+    <p>Como já vimos, a ideia de logaritmos surgiu a partir das potências e suas propriedades, sendo assim, podemos
+        perceber a ligação entre os logaritmos e as equações exponenciais. Os logaritmos se definem formalmente pela
+        fórmula log<sub>a</sub>b=x, onde a é a base, b é o logaritmando e x é o logaritmo. Para o logaritmo existir,
+        deve-se seguir
+        os seguintes critérios: b > 0, a > 0 e a &ne; 1.</p>
+    <p>Exemplo:</p>
+    <div class="respostas">
+        <p>log<sub>2</sub>64 = x</p>
+        <p>2<sup>x</sup> = 64</p>
+        <p>2<sup>x</sup> = 2<sup>6</sup> (bases iguais se anulam)</p>
+        <p>x = 6</p>
+    </div>
+    <p>Analisando a equação, podemos dizer que o resultado de um logaritmo será um expoente de uma potência, já que
+        2<sup>6</sup> = 64.</p>
+
+    <h3>Casos particulares</h3>
+    <p>Não é sempre que vamos poder obter algum resultado em logaritmos, já que depende dos valores da equação. Desse
+        modo, vemos algumas observações de casos particulares:</p>
+    <ol type="1">
+        <li>A base não pode ser zero, nem 1, nem negativa.</li>
+        <li>O logaritmando não pode ser 0 nem número negativo.</li>
+        <li>Caso o logaritmando seja igual a um, o logaritmo dessa base será 0, já que qualquer número elevado a 0
+            resulta em 1 (Ex. -> log<sub>5</sub>1 = 0, pois 5<sup>0</sup> = 1).</li>
+        <li>Sempre que o logaritmo for igual a 1, a base e o logaritmando serão iguais já que qualquer número elevado a
+            1 será ele mesmo (Ex. -> log<sub>5</sub>5 = 1)</li>
+    </ol>
+    <br>
+
+    <h3>Propriedades operatórias dos Logaritmos</h3>
+    <p>As propriedades dos logaritmos foram criadas para caso a aplicação da simples definição deles não seja suficiente
+        para a resolução. Essas propriedades são extremamente úteis para a resolução de problemas utilizando logaritmos.
+    </p>
+    <br>
+    <div class="table-responsive">
+        <table class="tabela table-bordered">
+            <tr>
+                <th>1<sup>a</sup> propriedade</th>
+                <td>Logaritmo de um produto</td>
+                <td>log<sub>a</sub>(B.C) = log<sub>a</sub>B + log<sub>a</sub>C</td>
+            </tr>
+            <tr>
+                <th>2<sup>a</sup> propriedade</th>
+                <td>Logaritmo de um quociente</td>
+                <td>log<sub>a</sub>(B/C) = log<sub>a</sub>B - log<sub>a</sub>C</td>
+            </tr>
+            <tr>
+                <th>3<sup>a</sup> propriedade</th>
+                <td>Logaritmo de uma potência</td>
+                <td>log<sub>a</sub>BC = C.log<sub>a</sub>B</td>
+            </tr>
+            <tr>
+                <th></th>
+                <td></td>
+                <td>log<sub>a</sub>C&radic;2 = 1/Clog<sub>a</sub>B</td>
+            </tr>
+            <tr>
+                <th>4<sup>a</sup> propriedade</th>
+                <td>Mudança de base</td>
+                <td>logBC = log<sub>a</sub>C/log<sub>a</sub>B</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <p>Exemplos (todos os exemplos, com exceção do 4<sup>0</sup> que foi retirado do material da prof, foram retirados
+        do site <a href="https://www.todamateria.com.br/propriedades-dos-logaritmos/" target="_blank">Toda Matéria</a>)
+    </p>
+    <p>1<sup>a</sup> propriedade - Considerando log 2 = 0,3 e log 3 = 0,48, determine o valor do log 60.</p>
+    <div class="respostas">
+        <p>log 60 = log (2.3.10)</p>
+        <p>log 60 = log 2 + log 3 + log 10</p>
+        <p>log 60 = 0,3 + 0,48 + 1 = 1,78</p>
+    </div>
+    <br>
+    <p>2<sup>a</sup> propriedade - Considerando log 5 = 0,70, determine o valor do log 0,5.</p>
+    <div class="respostas">
+        <p>log 0,5 = log(5/10)</p>
+        <p>log 0,5 = log 5 - log10</p>
+        <p>log 0,5 = 0,7 - 1</p>
+        <p>log 0,5 = -0,3</p>
+    </div>
+    <br>
+    <p>3<sup>a</sup> propriedade - Considerando log 3 = 0,48, determine o valor do log 81.</p>
+    <div class="respostas">
+        <p>log 81 = log 3<sup>4</sup></p>
+        <p>log 81 = 4 . log 3</p>
+        <p>log 81 = 4 . 0,48</p>
+        <p>log 81 = 1,92</p>
+    </div>
+    <br>
+    <p>4<sup>a</sup> propriedade:</p>
+    <div class="respostas">
+        <p>log<sub>2</sub>4</p>
+        <p>log<sub>4</sub>4/log<sub>4</sub>2</p>
+        <p>1/(1/2)</p>
+        <p>1.2 = 2</p>
+    </div>
+    <br>
+
+
+    <h3>Expressões logarítmicas</h3>
+    <p>Para solucionarmos uma expressão logarítmica, devemos seguir os seguintes passos:</p>
+    <ol>
+        <li>Analisar a condição de existência</li>
+        <li>Utilizar as propriedades para fazer com que a expressão vire uma expressão exponencial</li>
+        <li>Analisar o resultado para ver se ele entra nas regras de condição de existência</li>
+    </ol>
+    <br>
+    <p>Exemplos:</p>
+    <div class="respostas">
+        <p>log<sub>2</sub>(x-4) = 3</p>
+        <p>x-4 = 2<sup>3</sup></p>
+        <p>x = 8 + 4</p>
+        <p>x = 12</p>
+        <br>
+        <p>log2 + log(x+1) - logx = 1</p>
+        <p>log[2(x+1)/x] = 1</p>
+        <p>2(x + 1)/x = 10<sup>1</sup></p>
+        <p>2x + 2 = 10x</p>
+        <p>8x = 2</p>
+        <p>x = 2/8 = 1/4</p>
+    </div>
+    <br>
+
+    <h3>Problemas matemáticos</h3>
+    <p>(UERJ - 2016) Admita que a ordem de grandeza de uma medida x é uma potência de base 10, com expoente n inteiro,
+        para 10<sup>n - 1/2</sup>
+        <= x <=10<sup>n + 1/2</sup>. Considere que um terremoto tenha liberado uma energia E, em joules, cujo valor
+            numérico é tal que log10 E = 15,3. A ordem de grandeza de E, em joules, equivale a:
+    </p>
+    <p>a) 10<sup>14</sup></p>
+    <p>b) 10<sup>15</sup></p>
+    <p>c) 10<sup>16</sup></p>
+    <p>d) 10<sup>17</sup></p>
+    <br>
+    <div class="respostas">
+        <p>Aplicando a definição de logaritmos:</p>
+        <p>log E = 15,3</p>
+        <p>E = 10<sup>15,3</sup></p>
+        <p>Como já dito no problema, a potência deve seguir a seguinte regra:</p>
+        <p>10<sup>n - 1/2</sup>
+            <= x <=10<sup>n + 1/2</sup>
+        </p>
+        <p>Calculando, obtemos os seguintes resultados: 10<sup>14,5</sup> e 10<sup>15,5</sup></p>
+        <p>De acordo com o enunciado, o expoente da grandeza deve estar entre os dois resultados que encontramos, assim
+            podemos afirmar que o expoente é 15.</p>
+        <p>Resposta: letra b) 10<sup>15</sup></p>
+    </div>
+    <br>
+
+    <p>(exemplo retirado do material da prof) Exemplo 8: O número de bactérias numa certa cultura duplica a cada hora. A
+        função exponencial que expressa a relação entre o número de bactérias pelo tempo é N(t) = 2t . Em quanto
+        tempo a cultura terá: (log 2 = 0,301)
+    </p>
+    <p>a) Mil bactérias?</p>
+    <div class="respostas">
+        <p>Usando a definição de log:</p>
+        <p>t = log<sub>2</sub>1000 (usar a 4<sup>a</sup> propriedade)</p>
+        <p>t = log1000/log2 = 3/0,301 = 10 horas</p>
+    </div>
+    <br>
+    <p>b) Um milhão de bactérias?</p>
+    <div class="respostas">
+        <p>1.000.000 = 2<sup>t</sup></p>
+        <p>log 10<sup>6</sup> = t.log2</p>
+        <p>t = 6.log10/log2 = 6/0,301 = 20 horas</p>
+    </div>
+    <br>
+
+    <a href="home.html" class="botao_avancar">Voltar à página inicial</a>
+</body>
+
+</html>

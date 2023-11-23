@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Funções Modulares</title>
+</head>
+
+<body>
+    <nav class="dp-menu">
+        <ul>
+            <li><a href="index.html">Login</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="autoavaliacao.html">Autoavaliação</a></li>
+            <li><a href="#">1° trimestre</a>
+                <ul>
+                    <li><a href="https://gabifrare.github.io/portifoliodematematica/sistemas.html"
+                            target="_blank">Sistemas de Numeração</a></li>
+                    <li><a href="https://gabifrare.github.io/portifoliodematematica/conjuntos.html"
+                            target="_blank">Conjuntos e Conjuntos Numéricos</a></li>
+                    <li><a href="https://gabifrare.github.io/portifoliodematematica/funcao.html"
+                            target="_blank">Função
+                            e Função Afim</a></li>
+                </ul>
+            </li>
+            <li><a href="#">2° trimestre</a>
+                <ul>
+                    <li><a href="graficoafim.html">Gráfico da Função Afim</a></li>
+                    <li><a href="funcaoquadratica.html">Função Quadrática</a></li>
+                    <li><a href="funcaoexponencial.html">Função Exponencial</a>
+                    </li>
+                    <li><a href="logaritmos.html">Logaritmos</a></li>
+                </ul>
+            </li>
+            <li><a href="#">3° trimestre</a>
+                <ul>
+                    <li><a href="funcoeslogaritmicas.html">Funções
+                            Logaritmicas</a></li>
+                    <li><a href="modulares.html">Funções Modulares</a></li>
+                    <li><a href="paepg.html">Progressão Aritmética e
+                            Geométrica</a></li>
+                    <li><a href="matematicafinanceira.html">Matemática Financeira</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <h1 class="titulo_paginas">Funções Modulares</h1>
+    <p class="paragrafo-meio">Uma função modular é definida por f(x) = |x|, onde existem dois resultados para x, sendo
+        eles: -x (para x < 0) e + x (x>=0).</p>
+    <hr>
+    <h3>Módulo: definição</h3>
+    <p>Podemos dizer que o módulo de um número é sua distância até o ponto 0 de uma reta numérica. Deste modo, como não
+        existe distância negativa, o módulo sempre é positivo.
+    </p>
+    <p>Apesar do módulo sempre ser positivo, devemos lembrar que o número em que está dentro dele pode ser tanto
+        positivo quanto negativo, desta forma estabelecemos que |x| terá dois resultados:
+    </p>
+    <p class="paragrafo-meio">|x| = -x</p>
+    <p class="paragrafo-meio">|x| = +x</p>
+    <br>
+
+    <h3>Equação modular</h3>
+    <p>Para descobrirmos os valores de x, resolvemos a equação dada de duas formas: uma com a variável sendo negativa e
+        a outra positiva.
+    </p>
+    <br>
+    <p>Exemplos:</p>
+    <p>a) |x + 10 . 2| = 16</p>
+    <p class="paragrafo_colorido">x + 10 . 2 = -16</p>
+    <p>x + 5 = -16</p>
+    <p>x = -11</p>
+    <br>
+    <p class="paragrafo_colorido">x + 10 . 2 = 16</p>
+    <p>x + 5 = 16</p>
+    <p>x = 11</p>
+    <br>
+    <br>
+
+    <p>b) |x<sup>2</sup> - 9| = 5</p>
+    <p class="paragrafo_colorido">x<sup>2</sup> - 9 = 5</p>
+    <p>x<sup>2</sup> = 5 + 9</p>
+    <p>x<sup>2</sup> = 14</p>
+    <p>x = &plusmn;&radic;14</p>
+    <br>
+
+    <p class="paragrafo_colorido">x<sup>2</sup> - 9 = -5</p>
+    <p>x<sup>2</sup> = -5 + 9</p>
+    <p>x = &plusmn;&radic;4</p>
+    <p>x = &plusmn;2</p>
+    <br>
+
+    <p>Também podem haver casos em que existam dois módulos, um de cada lado do sinal da
+        igualdade. Nesse caso, também resolvemos a equação duas vezes.</p>
+    <p class="paragrafo-meio">Exemplo: |2x - 1| = |4x + 3|</p>
+    <p class="paragrafo_colorido">2x - 1 = 4x + 3 (deixar a equação como está, apenas tirá-la do módulo)</p>
+    <p>-2x = 4</p>
+    <p>x = -4/2</p>
+    <p>x = -2</p>
+    <br>
+
+    <p class="paragrafo_colorido">2x - 1 = -(4x + 3) (mudar o sinal de uma das expressões)</p>
+    <p>2x - 1 = -4x - 3</p>
+    <p>6x = -2</p>
+    <p>x = -2/6</p>
+    <p>x = -1/3</p>
+    <br>
+
+    <h3>Função Modular</h3>
+    <p>Se quisermos saber sobre funções modulares, devemos relembrar sobre todas as outras funções já estudadas, já que
+        a modular se caracteriza pela reflexão da parte negativa do gráfico dessas funções. Para entender melhor,
+        compare os dois gráficos abaixo:
+    </p>
+    <div class="imagens">
+        <img class="img-fluid" src="img/modulares_funcaoafim.png">
+        <br>
+        <img class="img-fluid" src="img/modulares_funcaoafimcommodulo.png">
+    </div>
+    <br>
+    <p>Repare que enquanto na função afim a reta contempla números negativos, a modular reflete a parte negativa da reta
+        para cima, fazendo justamente o que a definição de módulo vista antes diz. Agora, vamos ver como ficam os
+        gráficos modulares dos outros tipos de funções.
+    </p>
+    <br>
+    <p class="paragrafo-meio">Função Quadrática</p>
+    <div class="imagens">
+        <img class="img-fluid" src="img/modulares_quadraticacommodulo.png">
+    </div>
+    <br>
+    <p class="paragrafo-meio">Função Exponencial</p>
+    <div class="imagens">
+        <img class="img-fluid" src="img/modulares_exponencialcommodulo.png">
+    </div>
+    <br>
+    <p class="paragrafo-meio">Função Logarítmica</p>
+    <div class="imagens">
+        <img class="img-fluid" src="img/modulares_logaritmicacommodulo.png">
+    </div>
+    <br>
+
+    <h3>Gráfico da Função Modular</h3>
+    <p>Vendo os gráficos acima, podemos chegar a conclusão de que para montar o gráfico de uma função modular, apenas
+        precisamos dos seguintes passos:
+    </p>
+
+    <ol type="1">
+        <li>Fazer o gráfico da função que está dentro do módulo;</li>
+        <li>Refletir a parte do gráfico que está negativa;</li>
+        <li>Caso tenha algum número somando do lado de fora do módulo, suba o gráfico, e caso tenha algum número
+            subtraindo, desça o gráfico;</li>
+        <li>Se após esses passos houver algum caso em que a função cruzar o eixo x em outros valores, basta encontrar as
+            novas raízes igualando a função a 0.</li>
+    </ol>
+    <br>
+
+    <h3>Exemplo de construção do gráfico</h3>
+    <p class="paragrafo_colorido">&#9679; Função Afim</p>
+    <p class="paragrafo-meio">função: f(x) = |2x| + 1</p>
+    <div class="table-responsive">
+        <table class="tabela table-bordered">
+            <thead>
+                <tr>
+                    <th>valores de x</th>
+                    <th>valores de y</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>-2</td>
+                    <td>2.(-2) = -4</td>
+                </tr>
+                <tr>
+                    <td>-1</td>
+                    <td>2.(-1) = -2</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>2.0 = 0</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2.1 = 2</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>2.2 = 4</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <div class="imagens">
+        <img class="img-fluid" src="img/exemplo_afimmodular.png">
+    </div>
+    <p class="paragrafo-meio">Aplicando o módulo no gráfico:</p>
+    <div class="imagens">
+        <img class="img-fluid" src="img/exemplo_afimmodular2.png">
+    </div>
+    <br>
+
+    <p class="paragrafo_colorido">&#9679; Função Quadrática</p>
+    <p class="paragrafo-meio">função: f(x)=|x<sup>2</sup> - 4| - 2
+    </p>
+
+    <ul>
+        <li>Crescente</li>
+        <li>Raízes: (-2; 2)</li>
+        <li>Corte no y: -4</li>
+        <li>Vértice: (0, -4)</li>
+    </ul>
+
+    <div class="imagens">
+        <img class="img-fluid" src="img/exemplo_quadraticamodular.png">
+    </div>
+    <p class="paragrafo-meio">Aplicando o módulo no gráfico:</p>
+    <div class="imagens">
+        <img class="img-fluid" src="img/exemplo_quadraticamodular2.png">
+    </div>
+    <br>
+
+    <p class="paragrafo_colorido">&#9679; Função Exponencial</p>
+    <p class="paragrafo-meio">função: f(x) = |3<sup>x</sup> - 2|</p>
+    <div class="table-responsive">
+        <table class="tabela table-bordered">
+            <thead>
+                <tr>
+                    <th>valores de x</th>
+                    <th>valores de y</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>-2</td>
+                    <td>3<sup>-2</sup> = 1/9 - 2 = -1,88</td>
+                </tr>
+                <tr>
+                    <td>-1</td>
+                    <td>3<sup>-1</sup> = 1/3 - 2 = -1,66</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>3<sup>0</sup> = 1 - 2 = -1</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>3<sup>1</sup> = 3 - 2 = 1</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>3<sup>2</sup> = 9 - 2 = 7</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <div class="imagens">
+        <img class="img-fluid" src="img/exemplo_exponencialmodular.png">
+    </div>
+    <p class="paragrafo-meio">Aplicando o módulo no gráfico:</p>
+    <div class="imagens">
+        <img class="img-fluid" src="img/exemplo_exponencialmodular2.png">
+    </div>
+    <br>
+
+    <p class="paragrafo_colorido">&#9679; Função Logarítmica</p>
+    <p class="paragrafo-meio">função: f(x)=|1 + log<sub>2</sub>(x - 3)|</p>
+    <ul>
+        <li>Crescente</li>
+        <li>Domínio: 3</li>
+        <li>Raíz: 3,5</li>
+    </ul>
+
+    <div class="table-responsive">
+        <table class="tabela table-bordered">
+            <thead>
+                <tr>
+                    <th>valores de x</th>
+                    <th>valores de y</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>3,5</td>
+                    <td>1 + log<sub>2</sub>(3,2 - 3) = -1,32</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>1 + log<sub>2</sub>(4 - 3) = -1</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>1 + log<sub>2</sub>(5 - 3) = 2</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>1 + log<sub>2</sub>(6 - 3) = 2,58</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+
+    <div class="imagens">
+        <img class="img-fluid" src="img/exemplo_logaritmicamodular.png">
+    </div>
+    <p class="paragrafo-meio">Aplicando o módulo no gráfico:</p>
+    <div class="imagens">
+        <img class="img-fluid" src="img/exemplo_logaritmicamodular2.png">
+    </div>
+    <br>
+
+    <a href="paepg.html" class="botao_avancar">Avançar para o próximo conteúdo</a>
+
+</body>
+
+</html>

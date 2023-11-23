@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Matemática Financeira</title>
+</head>
+
+<body>
+    <nav class="dp-menu">
+        <ul>
+            <li><a href="index.html">Login</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="autoavaliacao.html">Autoavaliação</a></li>
+            <li><a href="#">1° trimestre</a>
+                <ul>
+                    <li><a href="https://gabifrare.github.io/portifoliodematematica/sistemas.html"
+                            target="_blank">Sistemas de Numeração</a></li>
+                    <li><a href="https://gabifrare.github.io/portifoliodematematica/conjuntos.html"
+                            target="_blank">Conjuntos e Conjuntos Numéricos</a></li>
+                    <li><a href="https://gabifrare.github.io/portifoliodematematica/funcao.html"
+                            target="_blank">Função
+                            e Função Afim</a></li>
+                </ul>
+            </li>
+            <li><a href="#">2° trimestre</a>
+                <ul>
+                    <li><a href="graficoafim.html">Gráfico da Função Afim</a></li>
+                    <li><a href="funcaoquadratica.html">Função Quadrática</a></li>
+                    <li><a href="funcaoexponencial.html">Função Exponencial</a>
+                    </li>
+                    <li><a href="logaritmos.html">Logaritmos</a></li>
+                </ul>
+            </li>
+            <li><a href="#">3° trimestre</a>
+                <ul>
+                    <li><a href="funcoeslogaritmicas.html">Funções
+                            Logaritmicas</a></li>
+                    <li><a href="modulares.html">Funções Modulares</a></li>
+                    <li><a href="paepg.html">Progressão Aritmética e
+                            Geométrica</a></li>
+                    <li><a href="matematicafinanceira.html">Matemática Financeira</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <h1 class="titulo_paginas">Matemática Financeira</h1>
+    <p class="paragrafo-meio">A matemática financeira estuda a ciência econômica financeira, ou seja, cálculos
+        direcionados à um maior controle
+        e organização do dinheiro</p>
+    <hr>
+
+    <h3>Principais Conceitos</h3>
+    <ul>
+        <li>Capital Inicial (C): é o valor inicial de um empréstimo ou de uma aplicação, que posteriormente terá a
+            aplicação de juros.
+        </li>
+        <li>Prazo (n): é o tempo que o empréstimo/aplicação dura.</li>
+        <li>Juro (J): é o preço em reais do “aluguel” do dinheiro. Pode ser considerado também como o rendimento do
+            empréstimo/investimento.</li>
+        <li>Taxa de Juros (i): é a taxa do rendimento do capital inicial em um determinado período de tempo (dias,
+            meses, semestres, anos, etc.). Pode ser escrita na forma de porcentagem (5%) ou na forma unitária (0,05).
+        </li>
+        <li>Montante (M): é o valor final do empréstimo/aplicação. Dado pela fórmula: M= C + J.</li>
+        <li>Regime de Capitalização: é a ação de adicionar juros ao capital. Existem dois tipos de capitalização:</li>
+        <ul>
+            <li>Capitalização Simples: Juros Simples (Crescimento linear).</li>
+            <li>Capitalização Composta: Juros Compostos (Crescimento exponencial).</li>
+        </ul>
+    </ul>
+
+    <h3>Juros Simples</h3>
+    <p>Na capitalização Simples, a taxa de juros sempre incide sobre o Capital Inicial. Nesse tipo de capitalização, o
+        crescimento da aplicação é linear.</p>
+    <br>
+
+    <p class="paragrafo_colorido">Exemplo (retirado do material da professora):</p>
+    <p>Um capital de R$ 5.000,00 é aplicado a juros simples durante 4 anos à taxa de 20% ao ano. Vamos calcular os juros
+        gerados em cada período e o montante após o período total de aplicação.</p>
+    <div class="respostas">
+        <p class="paragrafo-meio">1° ano: 5.000 * 0,20 = 1.000</p>
+        <p class="paragrafo-meio">2° ano: 5.000 * 0,20 = 1.000</p>
+        <p class="paragrafo-meio">3° ano: 5.000 * 0,20 = 1.000</p>
+        <p class="paragrafo-meio">4° ano: 5.000 * 0,20 = 1.000</p>
+        <p class="paragrafo-meio">Total: 4.000</p>
+    </div>
+    <br>
+
+    <p>Vendo a situação, podemos chegar a conclusão que para calcular os Juros de uma aplicação utilizamos a fórmula: J
+        = C ∙ i ∙ n. Somando os R$4.000,00 de Juros ao Capital Inicial obtemos:</p>
+    <p class="paragrafo-meio">M = C + J</p>
+    <p class="paragrafo-meio">M = 5.000 + 4.000 = 9.000</p>
+    <br>
+
+    <p class="sublinhado">Fórmulas:</p>
+    <p> J = C ∙ i ∙ n -> Juros</p>
+    <p>M = C (1 + in) -> Cálculo do Montante</p>
+
+    <h3>Juros Simples e Funções Afim</h3>
+    <p>Assim como vimos na Progressão Aritmética, é possível fazer uma relação entre ela e as Funções Afim. Nos Juros
+        Simples ocorre o mesmo, já que o crescimento do montante após a aplicação dos juros é linear ao longo do tempo.
+    </p>
+    <br>
+
+    <p class="paragrafo_colorido">Exemplo (retirado do material da professora):</p>
+    <p>Uma aplicação de R$ 200,00 é realizada sob o regime de juros simples com uma taxa de 3% ao mês. Estabeleça o
+        modelo matemático que expressa o valor do montante ao longo dos meses e construa um gráfico.</p>
+    <p>M = C (1 + in)</p>
+    <p>M = 200(1 + 0,03.n)</p>
+    <p>M = 200 + 200 . 0,03 . n</p>
+    <p>M = 6n + 200</p>
+
+    <div class="table-responsive">
+        <table class="tabela table-bordered">
+            <thead>
+                <tr>
+                    <th>Anos</th>
+                    <th>Montante</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>0</td>
+                    <td>6.0 + 200 = 200</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>6.1 + 200 = 206</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>6.2 + 200 = 212</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>6.3 + 200 = 218</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+
+    <div class="imagens">
+        <img class="img-fluid" src="img/matfinanceira_graficomontante.jpeg">
+    </div>
+
+    <h3>Juros Compostos</h3>
+    <p>Na capitalização Composta, a taxa de juros é aplicada no Capital Inicial somado aos juros acumulados até o
+        período anterior. Nesse tipo de capitalização, o crescimento da aplicação é exponencial ao longo do tempo.
+    </p>
+    <br>
+
+    <p class="paragrafo_colorido">Exemplo (retirado do material da professora):</p>
+    <h4>Calcular o montante de um capital de R$1.000,00, aplicado à taxa de 4% ao mês, durante 5 meses.</h4>
+
+    <div class="table-responsive">
+        <table class="tabela table-bordered">
+            <thead>
+                <tr>
+                    <th>Mês</th>
+                    <th>Juros</th>
+                    <th>Montante</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1°</td>
+                    <td>1.000 . 0,04 = 40</td>
+                    <td>1.000 . 1,04 = 1.040,00</td>
+                </tr>
+                <tr>
+                    <td>2°</td>
+                    <td>1.040 . 0,04 = 41,60</td>
+                    <td>1.000 . 1,04<su>2</su> = 1.081,60</td>
+                </tr>
+                <tr>
+                    <td>3°</td>
+                    <td>1.081,60 . 0,04 = 43,26</td>
+                    <td>1.000 . 1,04<sup>3</sup>= 1.124,86</td>
+                </tr>
+                <tr>
+                    <td>4°</td>
+                    <td>1.124,86 . 0,04 = 44,99</td>
+                    <td>1.000 . 1,04<sup>4</sup>= 1.169,85</td>
+                </tr>
+                <tr>
+                    <td>5°</td>
+                    <td>1.169,85 . 0,04 = 46,78</td>
+                    <td>1.000 . 1,04<sup>5</sup>= 1.216,28</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+
+    <p class="sublinhado">Fórmula:</p>
+    <p>M = C (1 + i)<sup>n</sup></p>
+
+    <h3>Juros Compostos e Funções Exponenciais</h3>
+    <p>Como foi dito antes, o crescimento dos Juros Compostos é exponencial, assim, é possível relacioná-lo com as
+        Funções Exponenciais, como na PG.</p>
+    <br>
+
+    <p class="paragrafo_colorido">Exemplo (retirado do material da professora):</p>
+    <p>Um valor de R$ 200,00 foi aplicado a uma taxa de juros compostos de 3% ao mês. Estabeleça a função matemática que
+        descreva a rentabilidade do dinheiro ao longo dos meses.</p>
+
+    <p class="paragrafo-meio">M(n) = 200 (1 + 0,03)<sup>n</sup></p>
+    <div class="table-responsive">
+        <table class="tabela table-bordered">
+            <thead>
+                <tr>
+                    <th>Mês</th>
+                    <th>Montante</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>0</td>
+                    <td>200 (1 + 0,03)<sup>0</sup> = 200</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>200 (1 + 0,03)<sup>1</sup> = 206</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>200 (1 + 0,03)<sup>2</sup> = 212,18</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>200 (1 + 0,03)<sup>3</sup> = 218,54</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+
+    <div class="imagens">
+        <img class="img-fluid" src="img/matfinanceira_graficomontante2.jpeg">
+    </div>
+
+    <a class="botao_avancar" href="home.html">Voltar à página inicial</a>
+
+</body>
+
+</html>
